@@ -1,0 +1,85 @@
+{
+  "email": "problem_tester@mail.ru",
+  "body": {
+    "video": [
+      {
+        "count": "3",
+        "url": "https://cloclo3.cloud.mail.ru/video/"
+      }
+    ],
+    "view_direct": [
+      {
+        "count": "250",
+        "url": "http://cloclo20.cloud.mail.ru/docdl/"
+      }
+    ],
+    "weblink_view": [
+      {
+        "count": "50",
+        "url": "https://cloclo20.datacloudmail.ru/weblink/view/"
+      }
+    ],
+    "weblink_video": [
+      {
+        "count": "3",
+        "url": "https://cloclo38.cloud.mail.ru/videowl/"
+      }
+    ],
+    "weblink_get": [
+      {
+        "count": 1,
+        "url": "https://cloclo21.cldmail.ru/2waaSVLbA2tyAgEAhv3f/G"
+      }
+    ],
+    "stock": [
+      {
+        "count": "50",
+        "url": "https://cloclo-stock2.datacloudmail.ru/stock/"
+      }
+    ],
+    "weblink_thumbnails": [
+      {
+        "count": "50",
+        "url": "https://thumb.cloud.mail.ru/weblink/thumb/"
+      }
+    ],
+    "web": [
+      {
+        "count": "1000",
+        "url": "https://cloud.mail.ru/"
+      }
+    ],
+    "auth": [
+      {
+        "count": "500",
+        "url": "https://swa.mail.ru/cgi-bin/auth"
+      }
+    ],
+    "view": [
+      {
+        "count": "250",
+        "url": "https://cloclo39.datacloudmail.ru/view/"
+      }
+    ],
+    "get": [
+      {
+        "count": "100",
+        "url": "https://cloclo18.datacloudmail.ru/get/"
+      }
+    ],
+    "upload": [
+      {
+        "count": "25",
+        "url": "https://cloclo21-upload.cloud.mail.ru/upload/"
+      }
+    ],
+    "thumbnails": [
+      {
+        "count": "250",
+        "url": "https://thumb.cloud.mail.ru/thumb/"
+      }
+    ]
+  },
+  "time": 1547851168911,
+  "status": 200
+}

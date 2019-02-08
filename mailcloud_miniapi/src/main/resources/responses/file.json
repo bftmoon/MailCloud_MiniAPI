@@ -1,0 +1,15 @@
+{
+  "email": "problem_tester@mail.ru",
+  "body": {
+    "mtime": 1547231443,
+    "virus_scan": "not_yet",
+    "name": "test.txt",
+    "size": 2,
+    "hash": "6F6B000000000000000000000000000000000000",
+    "kind": "file",
+    "type": "file",
+    "home": "/test.txt"
+  },
+  "time": 1548073002578,
+  "status": 200
+}

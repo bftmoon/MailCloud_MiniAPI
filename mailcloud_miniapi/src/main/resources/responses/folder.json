@@ -1,0 +1,59 @@
+{
+  "email": "problem_tester@mail.ru",
+  "body": {
+    "count": {
+      "folders": 1,
+      "files": 8
+    },
+    "tree": "333262643436373830303030",
+    "name": "/",
+    "grev": 7,
+    "size": 578732189,
+    "sort": {
+      "order": "asc",
+      "type": "name"
+    },
+    "kind": "folder",
+    "rev": 7,
+    "type": "folder",
+    "home": "/",
+    "list": [
+      {
+        "count": {
+          "folders": 0,
+          "files": 3
+        },
+        "tree": "333262643436373830303030",
+        "name": "Mail.Ru рекомендует",
+        "grev": 3,
+        "size": 86324148,
+        "kind": "folder",
+        "rev": 3,
+        "type": "folder",
+        "home": "/Mail.Ru рекомендует"
+      },
+      {
+        "mtime": 1547231443,
+        "virus_scan": "not_yet",
+        "name": "test.txt",
+        "size": 2,
+        "hash": "6F6B000000000000000000000000000000000000",
+        "kind": "file",
+        "type": "file",
+        "home": "/test.txt"
+      },
+      {
+        "mtime": 1546888139,
+        "virus_scan": "pass",
+        "name": "Полет.mp4",
+        "size": 486354507,
+        "hash": "C2AD142BDF1E4F9FD50E06026BCA578198BFC36E",
+        "kind": "file",
+        "type": "file",
+        "home": "/Полет.mp4"
+      }
+    ]
+  },
+  "time": 1547851967244,
+  "status": 200
+}
