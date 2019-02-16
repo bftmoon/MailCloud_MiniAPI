@@ -29,7 +29,7 @@ import retrofit2.Response;
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
-class MailCloud {
+public class MailCloud {
 
 
     private static final String ROOT_DIR = "/";
@@ -285,7 +285,9 @@ class MailCloud {
         try {
             main_folderInfo = getFolderInfo(cloud_dir_fullpath);
         } catch (MailCloudException e) {
-            if (first_call || e.getType() != MailCloudException.Type.FileNotFound)
+            if (e.getType() == MailCloudException.Type.FileNotFound && first_call)
+                throw new IOException(cloud_dir_fullpath + " doesn't exist");
+            else
                 collector.sendException(e);
         }
         List<String> cloud_filenames = new ArrayList<>(),

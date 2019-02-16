@@ -1,6 +1,6 @@
 package com.nodo.mailcloud_miniapi;
 
-interface CloudProgressListner {
+public interface CloudProgressListner {
 
     /**
      * Increment num when action ends successful

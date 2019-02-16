@@ -76,4 +76,33 @@ public class ApiTestsWrongUsing {
             Log.d("test", "Null shall not pass");
         }
     }
+
+    @Test
+    public void doubleCreateFolder() throws MailCloudException {
+        api.createFolder("/create");
+        api.createFolder("/create");
+        try {
+            assertEquals(api.getFolderInfo("/").getFoldersCount(), 2);
+        } finally {
+            api.deleteFileOrFolder("/create");
+        }
+    }
+
+    @Test
+    public void longNotExistPathCreateFolder() throws MailCloudException {
+        try {
+            api.createFolder("/long/long/long/long/create");
+        } catch (MailCloudException e) {
+            e.printStackTrace();
+        } finally {
+            api.deleteFileOrFolder("/long/long/long/long/create");
+        }
+    }
+
+    @Test
+    public void doubleCloud() throws IOException, MailCloudException {
+        System.out.println(api.getFolderInfo("/PMP3Player"));
+    }
 }
+
+// todo: logging, rxjava
